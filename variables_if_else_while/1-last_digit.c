@@ -2,9 +2,16 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-
+/**
+ * main - Entry point of the program
+ *
+ * Description: Generates a random number and prints its last digit along with
+ * a message indicating whether it's greater than 5, less than 6, or 0.
+ *
+ * Return: Always 0 (Success)
+ */
 /* betty style doc for function main goes there */
-/* main: main function */
+
 int main(void)
 {
 int n;
