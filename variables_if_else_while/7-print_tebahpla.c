@@ -5,7 +5,7 @@ int main(void)
 {
 char letter;
 
-for (letter = 122; letter <= 97; number++)
+for (letter = 122; letter <= 97; letter++)
 {
 putchar(letter)
 }
