@@ -1,20 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
-/** 
+
+/**
 *main - Prints the alphabet in uppercase
 *
 *Description: This program prints the alphabet in uppercase,
 *followed by a new line. Only putchar can be used.
-*Return: Always 0 (Success)*/
+*Return: Always 0 (Success)
+*/
 
 int main(void)
 {
 char letter;
 
-for (letter = 'a' ; letter <= 'z' ; letter++)
+for (letter = 'a'; letter <= 'z'; letter++)
 {
-
-  if (letter == 'e' || letter == 'q')
+if (letter == 'e' || letter == 'q')
 continue;
 putchar(letter);
 }
