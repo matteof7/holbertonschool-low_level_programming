@@ -3,9 +3,9 @@
 
 int main(void)
 {
-int letter;
+char letter;
 
-for (letter = 122; letter >= 97; letter++)
+for (letter = 'z'; letter >= 'a'; letter++)
 {
 putchar(letter)
 }
