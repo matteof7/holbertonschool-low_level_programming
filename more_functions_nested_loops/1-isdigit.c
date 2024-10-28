@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* _isupper - Vérifie si un caractère est une lettre majuscule
+* _isdigit - Vérifie si un caractère est un chiffre (0 à 9)
 * @c: Le caractère à vérifier
 *
-* Return: 1 si c est une majuscule, 0 sinon
+* Return: 1 si c est un chiffre, 0 sinon
 */
 int _isdigit(int c)
 {
