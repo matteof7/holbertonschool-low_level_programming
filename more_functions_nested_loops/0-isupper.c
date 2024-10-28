@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 int _isupper(int c)
-{
-_putchar (c >= 'A' && c <= 'Z')
-return (1);
-else
-return (0);
+if (c >= 'A' && c <= 'Z') {
+    _putchar('1');
+    return (1);
+} else {
+    _putchar('0');
+    return (0);
 }
