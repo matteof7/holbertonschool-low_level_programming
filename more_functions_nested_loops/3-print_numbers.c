@@ -1,10 +1,7 @@
 #include "main.h"
 
 /**
-* print_numbers - Imprime les chiffres de 0 à 9 suivis d'une nouvelle ligne
-*
-* Description: Utilise _putchar seulement deux fois pour imprimer
-*              les chiffres de 0 à 9 et un retour à la ligne.
+* print_numbers - prints numbers from 0 to 9
 */
 void print_numbers(void)
 {
