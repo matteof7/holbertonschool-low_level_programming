@@ -1,7 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-#ifndef PRINT_DIAGONAL_H
-#define PRINT_DIAGONAL_H
 
 #include <ctype.h>
 #include <unistd.h>
