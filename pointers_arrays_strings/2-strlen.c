@@ -11,5 +11,5 @@ number++;
 s++;
 }
 
-return number;
+return (number);
 }
