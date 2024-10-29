@@ -11,4 +11,4 @@ _putchar(i + 0);
 }
 _putchar('\n');
 
-return('10');
+return ('10');
