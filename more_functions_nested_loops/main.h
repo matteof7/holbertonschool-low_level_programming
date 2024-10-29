@@ -3,10 +3,10 @@
 #ifndef PRINT_DIAGONAL_H
 #define PRINT_DIAGONAL_H
 
-void print_diagonal(int n);
 #include <ctype.h>
 #include <unistd.h>
 #include <stdio.h>
+void print_diagonal(int n);
 int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
