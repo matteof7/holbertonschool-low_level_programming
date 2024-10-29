@@ -1,6 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
+#ifndef PRINT_DIAGONAL_H
+#define PRINT_DIAGONAL_H
 
+void print_diagonal(int n);
 #include <ctype.h>
 #include <unistd.h>
 #include <stdio.h>
