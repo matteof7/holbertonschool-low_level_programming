@@ -1,5 +1,11 @@
 #include "main.h"
-
+/**
+* print_diagonal - Draws a diagonal line on the terminal
+* @n: The number of times the character '\' should be printed
+*
+* Description: This function prints a diagonal line made of backslashes.
+* If n is 0 or less, it only prints a newline.
+*/
 void print_diagonal(int n)
 {
 int i, j;
