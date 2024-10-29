@@ -2,7 +2,7 @@
 
 void more_numbers(void)
 {
-int i, j;
+int i;
 
 for (i = 0; i < 14; i++)
 {
@@ -10,5 +10,5 @@ _putchar(i + 0);
 }
 }
 _putchar('\n');
-return (10);
-}
+
+return(10);
