@@ -4,7 +4,7 @@
 void reverse_array(int *a, int n)
 {
 int debut = 0;
-int fin = n -1;
+int fin = n - 1;
 int ptdr;
 
 while(debut < fin)
