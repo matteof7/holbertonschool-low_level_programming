@@ -9,6 +9,7 @@ int ptdr;
 
 while(debut < fin)
 {
+
 ptdr = a[debut];
 a[debut] = a[fin];
 a[fin] = ptdr;
