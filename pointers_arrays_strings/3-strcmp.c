@@ -6,8 +6,8 @@
 * @s1: The first string
 * @s2: The second string
 *
-* Return: 0 if strings are equal, 
-* negative if s1 < s2, 
+* Return: 0 if strings are equal,
+* negative if s1 < s2,
 * positive if s1 > s2
 */
 
