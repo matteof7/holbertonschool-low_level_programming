@@ -28,11 +28,11 @@ digit = s[i] - '0';
 if (ptdr > INT_MAX / 10 || (ptdr == INT_MAX / 10 && digit > INT_MAX % 10))
 return (lol == 1) ? INT_MAX : INT_MIN;
 if (ptdr < INT_MIN / 10 || (ptdr == INT_MIN / 10 && digit > -(INT_MIN % 10)))
-return INT_MIN;
+return (INT_MIN);
 
 ptdr = ptdr * 10 + lol * digit;
 i++;
 }
 
-return ptdr;
+return (ptdr);
 }
