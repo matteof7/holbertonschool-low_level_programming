@@ -13,6 +13,5 @@ str[i] = str[i] - 32;
 }
 i++;
 }
-    
 return (str);
 }
