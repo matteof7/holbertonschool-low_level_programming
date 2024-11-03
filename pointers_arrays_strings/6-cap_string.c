@@ -34,5 +34,5 @@ lol = 0;
 }
 i++;
 }
-return str;
+return (str);
 }
