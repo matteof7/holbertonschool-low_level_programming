@@ -9,7 +9,7 @@
 * library function strchr.
 *
 * Return: A pointer to the first occurrence of c in s, or NULL if c
-*         is not found
+* is not found
 */
 char *_strchr(char *s, char c)
 {
