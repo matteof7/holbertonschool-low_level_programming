@@ -1,5 +1,17 @@
 #include "main.h"
 
+/**
+* _strspn - Gets the length of a prefix substring
+* @s: The string to be scanned
+* @accept: The string containing the characters to match
+*
+* Description: This function calculates the length of the initial segment
+* of s which consists entirely of bytes in accept. It stops at the first
+* character in s that doesn't match any character in accept.
+*
+* Return: The number of bytes in the initial segment of s which consist
+*         only of bytes from accept
+*/
 unsigned int _strspn(char *s, char *accept)
 {
 unsigned int count = 0;
