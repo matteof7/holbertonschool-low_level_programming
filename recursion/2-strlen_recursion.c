@@ -2,16 +2,9 @@
 
 /**
 * _strlen_recursion - Returns the length of a string
-* @s: The string to calculate the length of
+* @s: The string to measure
 *
 * Return: The length of the string
-*
-* Description: This function recursively calculates the length of a string
-* by counting the number of characters until it reaches the null terminator.
-* It does not use any loops and instead relies on recursive calls.
-*
-* Note: This function mimics the behavior of the standard library's strlen,
-* but uses recursion instead of iteration.
 */
 int _strlen_recursion(char *s)
 {
