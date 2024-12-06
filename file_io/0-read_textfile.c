@@ -1,22 +1,38 @@
-#include <stdio.h>
-#include "lists.h"
+#include "main.h"
+#include <stdlib.h>
 
 /**
-* print_dlistint - Prints all the elements of a dlistint_t list
-* @h: Pointer to the head of the list
+* read_textfile - Reads a text file and prints 
+* it to POSIX stdout.
+ * @filename: A pointer to the name of the file.* @letters: The number of letters the function should read and print.
 *
-* Return: The number of nodes in the list
+* Return: If the function fails or filename is NULL - 0.
+*         O/w - the actual number of bytes the function can read and print.
 */
-size_t print_dlistint(const dlistint_t *h)
+ssize_t read_textfile(const char *filename, size_t letters)
 {
-size_t node_count = 0;
+ssize_t o, r, w;
+char *buffer;
 
-while (h != NULL)
+if (filename == NULL)
+return (0);
+
+buffer = malloc(sizeof(char) * letters);
+if (buffer == NULL)
+return (0);
+
+o = open(filename, O_RDONLY);
+r = read(o, buffer, letters);
+w = write(STDOUT_FILENO, buffer, r);
+
+if (o == -1 || r == -1 || w == -1 || w != r)
 {
-printf("%d\n", h->n);
-h = h->next;
-node_count++;
+free(buffer);
+return (0);
 }
 
-return (node_count);
+free(buffer);
+close(o);
+
+return (w);
 }
